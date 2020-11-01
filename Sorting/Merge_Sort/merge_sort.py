@@ -30,3 +30,8 @@ def merge(left_arr, right_arr, result):
 def merge_sort(arr):
     sort(arr)
     return arr
+
+
+if __name__ == "__main__":
+    arr = [1, 3, 2, 1, 4, 5, 8, 3, 9]
+    print(merge_sort(arr))
